@@ -14,7 +14,7 @@ const steps = [
     number: "01",
     title: "Book a Call",
     description:
-      "Schedule a no-pressure discovery call. We'll learn about your goals, your experience, and what you're looking for in a firm.",
+      "Schedule a no-pressure strategy call. We'll learn about your goals, your experience, and what you're looking for in a firm.",
   },
   {
     icon: Target,

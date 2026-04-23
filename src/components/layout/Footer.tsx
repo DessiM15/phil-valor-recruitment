@@ -70,7 +70,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="inline-block mt-8 border border-medallion/50 text-medallion text-sm font-medium px-6 py-2.5 rounded-full hover:bg-medallion hover:text-white transition-colors tracking-wide"
             >
-              Book a Discovery Call
+              Book a Strategy Call
             </a>
           </div>
         </div>

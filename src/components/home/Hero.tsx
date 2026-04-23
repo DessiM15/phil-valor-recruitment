@@ -10,7 +10,13 @@ import { BOOKING_URL } from "@/lib/constants";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-denim">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      {/* Skyline background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/skyline.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-denim/85" />
       <GrainOverlay />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-20">
@@ -49,7 +55,7 @@ export default function Hero() {
                 rel="noopener noreferrer"
                 className="inline-block bg-medallion text-white font-medium px-10 py-4 rounded-full hover:bg-medallion-dark transition-colors tracking-wide"
               >
-                Book a Discovery Call
+                Book a Strategy Call
               </a>
             </MagneticButton>
             <MagneticButton>

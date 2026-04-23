@@ -28,14 +28,14 @@ export default function Leadership() {
           </FadeIn>
 
           <FadeIn direction="left" delay={0.15}>
-            <SectionLabel className="mb-4">Leadership</SectionLabel>
+            <SectionLabel className="mb-4">Our Leadership</SectionLabel>
             <h2 className="text-4xl sm:text-5xl font-light text-denim leading-tight mb-8">
-              Meet <span className="font-semibold">Phil Resch</span>
+              Phil <span className="font-semibold">Resch</span>
             </h2>
             <blockquote className="border-l-2 border-medallion pl-6 mb-8">
               <p className="text-xl text-denim/70 italic leading-relaxed font-light">
                 <TextReveal
-                  text="I didn't build Valor to just sell policies. I built it to give agents real independence — the tools, the products, and the mentorship to build something lasting."
+                  text="I believe financial planning should be comprehensive, transparent, and deeply personal — and the agents who deliver it deserve a firm that operates the same way."
                   delay={0.3}
                 />
               </p>
@@ -44,16 +44,23 @@ export default function Leadership() {
               Founder & Managing Principal
             </p>
             <p className="text-gray-500 leading-relaxed mb-4">
-              With over 20 years in financial services, Phil built Valor
-              Financial Specialists from the ground up with a single mission:
-              create a firm where agents can truly thrive. No red tape, no
-              limitations — just the freedom to build your business your way.
+              Phil founded Valor Financial Specialists on a core belief: your
+              financial plan should account for your whole life, not just one
+              piece of it. That same philosophy extends to the agents he
+              partners with — a holistic approach to building your career, not
+              just your book of business.
+            </p>
+            <p className="text-gray-500 leading-relaxed mb-4">
+              With deep expertise spanning investments, insurance, retirement
+              planning, and alternative strategies, Phil brings a rare breadth
+              of knowledge to every agent relationship. He works directly with
+              every professional who joins Valor — no hand-offs, no call
+              centers, no cookie-cutter onboarding.
             </p>
             <p className="text-gray-500 leading-relaxed mb-8">
-              Based in Franklin, Tennessee, Phil works directly with every
-              agent who joins Valor, offering hands-on mentorship, access to
-              100+ carriers across 7 verticals, and the support structure that
-              most firms only promise.
+              Based in Franklin, Tennessee, Phil offers hands-on mentorship,
+              access to 100+ carriers across 7 verticals, and the kind of
+              support structure that most firms only promise.
             </p>
             <a
               href={BOOKING_URL}

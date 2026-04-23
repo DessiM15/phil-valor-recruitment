@@ -41,7 +41,7 @@ export default function FinalCTA() {
                 rel="noopener noreferrer"
                 className="inline-block bg-medallion text-white font-medium px-12 py-5 rounded-full hover:bg-medallion-dark transition-colors tracking-wide text-base"
               >
-                Book Your Discovery Call
+                Book Your Strategy Call
               </a>
             </GoldGlow>
           </MagneticButton>

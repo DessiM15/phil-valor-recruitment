@@ -20,7 +20,7 @@ export default function ContactSidebar() {
                 Prefer to Talk First?
               </h3>
               <p className="text-gray-500 text-sm mb-4">
-                Skip the form and schedule a no-obligation discovery call
+                Skip the form and schedule a no-obligation strategy call
                 directly with Phil.
               </p>
               <a
@@ -29,7 +29,7 @@ export default function ContactSidebar() {
                 rel="noopener noreferrer"
                 className="inline-block border border-medallion text-medallion font-medium px-6 py-2.5 rounded-full hover:bg-medallion hover:text-white transition-colors text-sm tracking-wide"
               >
-                Book a Discovery Call
+                Book a Strategy Call
               </a>
             </div>
           </div>

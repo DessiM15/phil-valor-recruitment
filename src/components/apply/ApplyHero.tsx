@@ -6,7 +6,12 @@ import GrainOverlay from "@/components/effects/GrainOverlay";
 
 export default function ApplyHero() {
   return (
-    <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden bg-denim pt-20">
+    <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-20">
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/skyline.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-denim/85" />
       <GrainOverlay />
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-20">
         <FadeIn>

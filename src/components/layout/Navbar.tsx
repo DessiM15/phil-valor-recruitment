@@ -47,7 +47,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="border border-medallion text-medallion text-sm font-medium px-6 py-2.5 rounded-full hover:bg-medallion hover:text-white transition-colors tracking-wide"
             >
-              Book a Discovery Call
+              Book a Strategy Call
             </a>
           </div>
 
@@ -80,7 +80,7 @@ export default function Navbar() {
               rel="noopener noreferrer"
               className="block text-center border border-medallion text-medallion text-sm font-medium px-6 py-2.5 rounded-full hover:bg-medallion hover:text-white transition-colors tracking-wide mt-4"
             >
-              Book a Discovery Call
+              Book a Strategy Call
             </a>
           </div>
         </div>

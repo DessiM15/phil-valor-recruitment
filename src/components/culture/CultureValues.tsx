@@ -1,6 +1,6 @@
 "use client";
 
-import { Compass, HeartHandshake, Users } from "lucide-react";
+import { Compass, ShieldCheck, BarChart3, HeartHandshake } from "lucide-react";
 import FadeIn from "@/components/animations/FadeIn";
 import SectionLabel from "@/components/ui/SectionLabel";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -8,22 +8,28 @@ import StaggerContainer, { StaggerItem } from "@/components/animations/StaggerCo
 
 const values = [
   {
+    icon: ShieldCheck,
+    title: "Fiduciary-First",
+    description:
+      "We don't just recommend what's suitable — we recommend what's best. Every recommendation is legally required to be in your client's best interest. You'll never be asked to push a product that doesn't serve them.",
+  },
+  {
     icon: Compass,
-    title: "Independence",
+    title: "True Independence",
     description:
       "Your business is yours. No production minimums, no captive contracts, no limitations on how you serve your clients. We give you the keys and get out of the way.",
   },
   {
-    icon: HeartHandshake,
-    title: "Support",
+    icon: BarChart3,
+    title: "Institutional-Grade Platform",
     description:
-      "Independence doesn't mean isolation. From licensing to marketing to case design, you'll have a team behind you every step of the way. 1:1 mentorship isn't a perk — it's how we operate.",
+      "Your clients deserve the same tools and access that institutional investors enjoy. Our platform provides sophisticated research, investment vehicles, and planning tools that set you apart from every other advisor in your market.",
   },
   {
-    icon: Users,
-    title: "Community",
+    icon: HeartHandshake,
+    title: "Relationship-Driven",
     description:
-      "Join a network of like-minded professionals who share knowledge, refer business, and lift each other up. Valor agents aren't competitors — they're collaborators.",
+      "We limit our growth intentionally. Every agent works directly with Phil — not a call center, not a regional manager. 1:1 mentorship isn't a perk. It's how we operate.",
   },
 ];
 
@@ -38,7 +44,7 @@ export default function CultureValues() {
           </div>
         </FadeIn>
 
-        <StaggerContainer className="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <StaggerContainer className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {values.map((value) => {
             const Icon = value.icon;
             return (
