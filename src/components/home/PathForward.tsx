@@ -34,12 +34,15 @@ const steps = [
 
 export default function PathForward() {
   return (
-    <section className="py-28 lg:py-36 bg-parchment">
+    <section className="py-28 lg:py-36 bg-cool-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
-          <div className="max-w-2xl mx-auto text-center mb-20">
+          <div className="max-w-2xl mb-20">
             <SectionLabel className="mb-4">Getting Started</SectionLabel>
             <SectionHeading light="Your Path" bold="Forward" />
+            <p className="mt-6 text-gray-500 leading-relaxed">
+              Three steps. No red tape. Just a clear path to building something yours.
+            </p>
           </div>
         </FadeIn>
 
@@ -84,7 +87,7 @@ export default function PathForward() {
               href={BOOKING_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block bg-denim text-white font-medium px-10 py-4 rounded-full hover:bg-denim-light transition-colors tracking-wide text-sm"
+              className="inline-block gradient-cta text-white font-medium px-10 py-4 rounded-full tracking-wide text-sm"
             >
               Start with Step One
             </a>

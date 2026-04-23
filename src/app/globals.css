@@ -9,6 +9,10 @@
   --color-parchment: #f7e1b0;
   --color-pearl: #f1f1f3;
   --color-white: #ffffff;
+  /* Cooler recruitment-specific tones */
+  --color-slate: #f4f6f8;
+  --color-slate-dark: #e8ecf0;
+  --color-cool-gray: #f8f9fb;
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -38,6 +42,34 @@ body {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
   background-repeat: repeat;
   background-size: 256px 256px;
+}
+
+/* Gradient accent line */
+.gradient-line {
+  background: linear-gradient(90deg, var(--color-denim), var(--color-medallion));
+}
+
+.gradient-line-vertical {
+  background: linear-gradient(180deg, var(--color-medallion), var(--color-denim));
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--color-white) 0%, var(--color-medallion) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Gradient CTA button */
+.gradient-cta {
+  background: linear-gradient(135deg, var(--color-medallion) 0%, var(--color-medallion-dark) 50%, var(--color-denim-light) 100%);
+  background-size: 200% 200%;
+  transition: background-position 0.4s ease;
+}
+
+.gradient-cta:hover {
+  background-position: 100% 100%;
 }
 
 /* Gold glow keyframes */

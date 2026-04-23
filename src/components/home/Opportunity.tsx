@@ -16,9 +16,13 @@ export default function Opportunity() {
     <section id="opportunity" className="py-28 lg:py-36 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
-          <div className="max-w-2xl mx-auto text-center mb-20">
+          <div className="max-w-2xl mb-20">
             <SectionLabel className="mb-4">What You Can Build</SectionLabel>
             <SectionHeading light="Opportunity," bold="Built Around You" />
+            <p className="mt-6 text-gray-500 leading-relaxed">
+              Seven distinct verticals. One integrated platform. Choose your path
+              and build a practice as broad — or as specialized — as you want.
+            </p>
           </div>
         </FadeIn>
 
@@ -73,7 +77,7 @@ export default function Opportunity() {
                 </p>
               </div>
 
-              <div className="bg-pearl/50 rounded-lg p-8">
+              <div className="bg-slate rounded-lg p-8 border border-slate-dark">
                 <h4 className="text-xs font-medium text-medallion tracking-[0.2em] uppercase mb-6">
                   Key Offerings
                 </h4>

@@ -9,11 +9,17 @@ import { BOOKING_URL } from "@/lib/constants";
 
 export default function FinalCTA() {
   return (
-    <section className="relative py-28 lg:py-36 bg-denim overflow-hidden">
+    <section className="relative py-28 lg:py-36 overflow-hidden">
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/skyline.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-denim/90" />
+      <div className="absolute top-0 left-0 right-0 h-1 gradient-line" />
       <GrainOverlay />
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <FadeIn>
-          <div className="w-px h-16 bg-medallion/30 mx-auto mb-10" />
+          <div className="w-px h-16 gradient-line-vertical mx-auto mb-10" />
         </FadeIn>
 
         <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white leading-tight mb-8">

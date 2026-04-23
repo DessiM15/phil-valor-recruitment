@@ -38,9 +38,13 @@ export default function CultureValues() {
     <section className="py-28 lg:py-36 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
-          <div className="max-w-2xl mx-auto text-center mb-20">
+          <div className="max-w-2xl mb-20">
             <SectionLabel className="mb-4">What We Believe</SectionLabel>
             <SectionHeading light="Built on" bold="Values" />
+            <p className="mt-6 text-gray-500 leading-relaxed">
+              Everything we do starts from four principles — the same ones that
+              guide how we serve clients and support our agents.
+            </p>
           </div>
         </FadeIn>
 
@@ -49,7 +53,7 @@ export default function CultureValues() {
             const Icon = value.icon;
             return (
               <StaggerItem key={value.title}>
-                <div className="bg-pearl/50 p-10 rounded-lg">
+                <div className="bg-slate p-10 rounded-lg border border-slate-dark">
                   <Icon
                     className="text-medallion mb-6"
                     size={32}

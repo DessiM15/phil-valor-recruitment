@@ -42,12 +42,17 @@ const stats = [
 export default function WhyValor() {
   return (
     <section className="relative py-28 lg:py-36 bg-denim overflow-hidden">
+      {/* Gradient accent line at top */}
+      <div className="absolute top-0 left-0 right-0 h-1 gradient-line" />
       <GrainOverlay />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
-          <div className="max-w-2xl mx-auto text-center mb-20">
+          <div className="max-w-2xl mb-20">
             <SectionLabel className="mb-4">The Valor Advantage</SectionLabel>
             <SectionHeading light="Why Choose" bold="Valor" color="white" />
+            <p className="mt-6 text-white/40 leading-relaxed">
+              The numbers speak for themselves.
+            </p>
           </div>
         </FadeIn>
 

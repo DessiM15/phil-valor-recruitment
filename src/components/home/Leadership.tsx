@@ -9,7 +9,7 @@ import { BOOKING_URL } from "@/lib/constants";
 
 export default function Leadership() {
   return (
-    <section id="leadership" className="py-28 lg:py-36 bg-white">
+    <section id="leadership" className="py-28 lg:py-36 bg-cool-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           <FadeIn direction="right">

@@ -33,7 +33,7 @@ const spotlights = [
 
 export default function AgentSpotlights() {
   return (
-    <section className="py-28 lg:py-36 bg-parchment">
+    <section className="py-28 lg:py-36 bg-cool-gray">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
           <div className="max-w-2xl mx-auto text-center mb-20">
