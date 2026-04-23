@@ -41,9 +41,15 @@ const stats = [
 
 export default function WhyValor() {
   return (
-    <section className="relative py-28 lg:py-36 bg-denim overflow-hidden">
+    <section className="relative py-28 lg:py-36 overflow-hidden">
+      {/* Skyline background */}
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: "url('/images/skyline.jpg')" }}
+      />
+      <div className="absolute inset-0 bg-denim/92" />
       {/* Gradient accent line at top */}
-      <div className="absolute top-0 left-0 right-0 h-1 gradient-line" />
+      <div className="absolute top-0 left-0 right-0 h-1 gradient-line z-10" />
       <GrainOverlay />
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <FadeIn>
